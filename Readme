@@ -1,1 +1,20 @@
-Readme
+Diabetic retinopathy is a disease caused due to Diabetes Mellitus in the diabetic
+patients. It is the major cause of blindness for several people. The longer the diabetic
+retinopathy affected the high chance that the person can go blind. 90% of cases reported
+that the cause of blindness due to the diabetic retinopathy occur due to the lack of
+proper treatment and monitoring the retinopathy before severe stage. Microaneurysms
+formation and macular edema in the retina is the initial sign of DR and diagnosis at
+the right time can reduce the risk of non proliferated diabetic retinopathy. The doctors
+can’t find a cure to the severe stage of diabetic retinopathy but can be detected in early
+stage and prevent it. Hence automated computer diagnosis will help doctors in finding
+Diabetic Retinopathy at early stage with less cost and time. Therefore we need a simple,
+reliable and accurate model to automate this process.
+
+
+
+In this project we used a modification of the U-Net architecture by introducing an
+attention block to achieve accurate blood vessel segmentation on 40 fundus images from
+DRIVE dataset including 7 abnormal pathology cases. The proper analysis of retinal
+vessels is required to get the precise result, which can be done by Retinal Segmentation
+which is the process of automatic detection of boundaries of blood vessels. We have
+also used a CNN classifier to identify the stage of Diabetic Retinopathy
